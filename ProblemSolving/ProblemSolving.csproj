@@ -31,7 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ProblemSolving.RectangleStar2</StartupObject>
+    <StartupObject>ProblemSolving.FirstNEven</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="BiggestNum.cs" />
     <Compile Include="EvenOddIf.cs" />
+    <Compile Include="FirstNEven.cs" />
     <Compile Include="IFproblem.cs" />
     <Compile Include="NoOfDigits.cs" />
     <Compile Include="OvalElseIf.cs" />
