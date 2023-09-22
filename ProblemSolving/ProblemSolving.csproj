@@ -31,7 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ProblemSolving.FirstNEven</StartupObject>
+    <StartupObject>ProblemSolving.PyramidPattern</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,13 +46,25 @@
   <ItemGroup>
     <Compile Include="BiggestNum.cs" />
     <Compile Include="EvenOddIf.cs" />
+    <Compile Include="Factorial.cs" />
+    <Compile Include="Factors.cs" />
     <Compile Include="FirstNEven.cs" />
     <Compile Include="IFproblem.cs" />
+    <Compile Include="MultiplicationTable.cs" />
     <Compile Include="NoOfDigits.cs" />
     <Compile Include="OvalElseIf.cs" />
+    <Compile Include="Pattern3.cs" />
+    <Compile Include="Pattern4.cs" />
+    <Compile Include="Patterns1.cs" />
+    <Compile Include="Patterns2.cs" />
+    <Compile Include="PerfectNum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PyramidPattern.cs" />
     <Compile Include="RecangleStar.cs" />
     <Compile Include="RectangleStar2.cs" />
+    <Compile Include="Spaces1.cs" />
+    <Compile Include="SumOfN.cs" />
+    <Compile Include="SumofNFactors.cs" />
     <Compile Include="SwitchOval.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
