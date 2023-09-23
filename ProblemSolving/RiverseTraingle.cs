@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ProblemSolving
 {
-    internal class PyramidPattern
+    internal class RiverseTraingle
     {
         public static void Main(string[] args)
         {
             int RowNum, Rows, Star, Space;
             Console.Write("Enter Number of Rows ");
             Rows = Convert.ToInt32(Console.ReadLine());
-            for (RowNum = 1; RowNum <= Rows; RowNum++)
+            for (RowNum = Rows; RowNum >= 1; RowNum--)
             {
                 for (Space = RowNum; Space <= Rows; Space++)
                 {

@@ -15,7 +15,7 @@ namespace ProblemSolving
 
             Console.Write("Enter the breadth (width) of the rectangle: ");
             int breadth = Convert.ToInt32(Console.ReadLine());
-            if (length > breadth)
+            if (length!= breadth)
             {
                 // Loop through rows (height of the rectangle)
                 for (int i = 0; i < breadth; i++)

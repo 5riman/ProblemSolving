@@ -11,36 +11,39 @@ namespace ProblemSolving
 
         static void Main()
         {
-            
-                int height = 5; 
+            Console.Write("Enter the length of the rectangle: ");
+            int length = int.Parse(Console.ReadLine());
 
-                for (int i = 1; i <= height; i++)
+            Console.Write("Enter the breadth (width) of the rectangle: ");
+            int breadth = int.Parse(Console.ReadLine());
+            if (length != breadth)
+            {
+
+                for (int i = 0; i < breadth; i++)
                 {
-                   
-                    for (int j = 1; j <= height - i; j++)
+                    for(int j= 0; j < length; j++)
                     {
-                        Console.Write(" ");
-                    }
-
-                    
-                    for (int k = 1; k <= 2 * i - 1; k++)
-                    {
-                        if (k == 1 || k == 2 * i - 1 || i == height)
+                        if (i == 0 || i == breadth - 1 || j == 0 || j == length - 1)
                         {
+
                             Console.Write("*");
                         }
                         else
                         {
+
                             Console.Write(" ");
                         }
                     }
-                Console.WriteLine();
+                    Console.WriteLine();
+                }
+
+                Console.ReadLine();
             }
-
-
-
+            else
+            {
+                Console.Write("It is not Rectangle");
+            }
         }
 
     }
 }
-

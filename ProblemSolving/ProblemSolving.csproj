@@ -31,7 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ProblemSolving.PyramidPattern</StartupObject>
+    <StartupObject>ProblemSolving.Rhombus</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -62,6 +62,8 @@
     <Compile Include="PyramidPattern.cs" />
     <Compile Include="RecangleStar.cs" />
     <Compile Include="RectangleStar2.cs" />
+    <Compile Include="Rhombus.cs" />
+    <Compile Include="RiverseTraingle.cs" />
     <Compile Include="Spaces1.cs" />
     <Compile Include="SumOfN.cs" />
     <Compile Include="SumofNFactors.cs" />
