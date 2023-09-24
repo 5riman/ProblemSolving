@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ProblemSolving.Rhombus</StartupObject>
+    <StartupObject>ProblemSolving.Patterns1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -44,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array1.cs" />
     <Compile Include="BiggestNum.cs" />
     <Compile Include="EvenOddIf.cs" />
     <Compile Include="Factorial.cs" />
@@ -55,6 +57,7 @@
     <Compile Include="OvalElseIf.cs" />
     <Compile Include="Pattern3.cs" />
     <Compile Include="Pattern4.cs" />
+    <Compile Include="Pattern5.cs" />
     <Compile Include="Patterns1.cs" />
     <Compile Include="Patterns2.cs" />
     <Compile Include="PerfectNum.cs" />

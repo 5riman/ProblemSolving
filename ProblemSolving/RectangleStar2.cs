@@ -23,7 +23,11 @@ namespace ProblemSolving
                 {
                     for(int j= 0; j < length; j++)
                     {
-                        if (i == 0 || i == breadth - 1 || j == 0 || j == length - 1)
+                        if ((i == j))
+                        {
+                            Console.Write("#");
+                        }
+                        else if(i == 0 || i == breadth - 1 || j == 0 || j == length - 1)
                         {
 
                             Console.Write("*");

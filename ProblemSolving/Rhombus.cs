@@ -21,7 +21,12 @@ namespace ProblemSolving
                 }
                 for (Star = 1; Star <= RowNum; Star++)
                 {
-                    Console.Write("* ");
+                    if (RowNum == 1 || RowNum == Rows || Star == 1 || Star == RowNum)
+                        Console.Write("* ");
+                    else
+                        Console.Write("  ");
+
+                    
                 }
                 Console.WriteLine();
             }
@@ -33,7 +38,11 @@ namespace ProblemSolving
                 }
                 for (Star = 1; Star <= RowNum; Star++)
                 {
-                    Console.Write("* ");
+                    if (RowNum == 1 || RowNum == Rows|| Star == 1 || Star == RowNum)
+                        Console.Write("* ");
+                    else
+                        Console.Write("  ");
+
                 }
                 Console.WriteLine();
             }

@@ -9,7 +9,7 @@ namespace ProblemSolving
     internal class RiverseTraingle
     {
         public static void Main(string[] args)
-        {
+        { 
             int RowNum, Rows, Star, Space;
             Console.Write("Enter Number of Rows ");
             Rows = Convert.ToInt32(Console.ReadLine());
@@ -21,7 +21,11 @@ namespace ProblemSolving
                 }
                 for (Star = 1; Star <= RowNum; Star++)
                 {
-                    Console.Write("* ");
+                    if (RowNum == 1 || RowNum == Rows || Star == 1 || Star == RowNum)
+                        Console.Write("* ");
+                    else
+                        Console.Write("  ");
+                    
                 }
                 Console.WriteLine();
             }
