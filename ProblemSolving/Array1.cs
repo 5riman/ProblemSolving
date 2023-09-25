@@ -10,64 +10,83 @@ namespace ProblemSolving
     {
 
 
-        //            int Breadth, Length;
-        //            Breadth = Convert.ToInt32(Console.ReadLine());
-        //            Length = Convert.ToInt32(Console.ReadLine());
-        //            for (int i = 1; i<=Breadth; i++)
+        //        //            int Breadth, Length;
+        //        //            Breadth = Convert.ToInt32(Console.ReadLine());
+        //        //            Length = Convert.ToInt32(Console.ReadLine());
+        //        //            for (int i = 1; i<=Breadth; i++)
+        //        //            {
+        //        //                for (int j= 1; j <=Length; j++)
+        //        //                {
+        //        //                    if (i == 1 || i == Breadth|| j == 1 || j == Length)
+        //        //                    {
+
+
+        //        //                         Console.Write("*");
+        //        //                    }
+        //        //                    else
+        //        //                    {
+        //        //                        Console.Write(" ");
+        //        //                    }
+        //        //                }
+        //        //                Console.WriteLine();
+        //        //            }
+        //        //        }
+        //        //    }
+        //        //}
+
+        //        static void Main()
+        //        {
+
+        //            DrawSquare(10);
+
+        //        }
+
+        //        public static void DrawSquare(int sideLength)
         //            {
-        //                for (int j= 1; j <=Length; j++)
+        //                for (int row = 1; row <= sideLength; row++)
         //                {
-        //                    if (i == 1 || i == Breadth|| j == 1 || j == Length)
-        //                    {
 
-
-        //                         Console.Write("*");
-        //                    }
-        //                    else
+        //                    for (int col = 1; col <= sideLength; col++)
         //                    {
-        //                        Console.Write(" ");
+        //                        if ((col == row) || (col + row == sideLength + 1))
+        //                        {
+        //                            Console.Write("#");
+        //                        }
+        //                        else if (col == 1 || row == 1 || col == sideLength || row == sideLength)
+        //                        {
+        //                            Console.Write("*");
+        //                        }
+        //                        else
+        //                        {
+        //                            Console.Write(" ");
+        //                        }
         //                    }
-        //                }
         //                Console.WriteLine();
+        //            }
         //            }
         //        }
         //    }
-        //}
-
-        static void Main()
+        static void Main(string[] args)
         {
-            
-            DrawSquare(10);
-
-        }
-
-        public static void DrawSquare(int sideLength)
+            int[] myArray = new int[] { 0, 19, 2, 3, 13, 9, 5 };
+            int small = int.MaxValue;
+            int second = int.MaxValue;
+            foreach (int i in myArray)
             {
-                for (int row = 1; row <= sideLength; row++)
+                if (i < small)
                 {
-                    
-                    for (int col = 1; col <= sideLength; col++)
-                    {
-                        if ((col == row) || (col + row == sideLength + 1))
-                        {
-                            Console.Write("#");
-                        }
-                        else if (col == 1 || row == 1 || col == sideLength || row == sideLength)
-                        {
-                            Console.Write("*");
-                        }
-                        else
-                        {
-                            Console.Write(" ");
-                        }
-                    }
-                Console.WriteLine();
+                    second = small;
+                    small = i;
+                }
+                else if (i < second)
+                    second = i;
             }
-            }
+
+            System.Console.WriteLine(second);
         }
     }
+}
 
 
 
-          
 

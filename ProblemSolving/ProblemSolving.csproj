@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ProblemSolving.Patterns1</StartupObject>
+    <StartupObject>ProblemSolving.Ascendingarray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,7 +52,9 @@
     <Compile Include="Factors.cs" />
     <Compile Include="FirstNEven.cs" />
     <Compile Include="IFproblem.cs" />
+    <Compile Include="LargestEltInArray.cs" />
     <Compile Include="MultiplicationTable.cs" />
+    <Compile Include="NamesInArray.cs" />
     <Compile Include="NoOfDigits.cs" />
     <Compile Include="OvalElseIf.cs" />
     <Compile Include="Pattern3.cs" />
@@ -65,12 +67,16 @@
     <Compile Include="PyramidPattern.cs" />
     <Compile Include="RecangleStar.cs" />
     <Compile Include="RectangleStar2.cs" />
+    <Compile Include="Ascendingarray.cs" />
     <Compile Include="Rhombus.cs" />
     <Compile Include="RiverseTraingle.cs" />
     <Compile Include="Spaces1.cs" />
+    <Compile Include="SumArray.cs" />
+    <Compile Include="SumofEvenArray.cs" />
     <Compile Include="SumOfN.cs" />
     <Compile Include="SumofNFactors.cs" />
     <Compile Include="SwitchOval.cs" />
+    <Compile Include="UserInputArray.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
