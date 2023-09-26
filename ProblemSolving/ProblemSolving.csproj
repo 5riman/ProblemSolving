@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Armstrong.cs" />
     <Compile Include="Array1.cs" />
     <Compile Include="BiggestNum.cs" />
     <Compile Include="CountOfDigitsArray.cs" />
