@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Array1.cs" />
     <Compile Include="BiggestNum.cs" />
+    <Compile Include="CountOfDigitsArray.cs" />
     <Compile Include="EvenOddIf.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="Factors.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="RecangleStar.cs" />
     <Compile Include="RectangleStar2.cs" />
     <Compile Include="Ascendingarray.cs" />
+    <Compile Include="ReverseDigit.cs" />
     <Compile Include="Rhombus.cs" />
     <Compile Include="RiverseTraingle.cs" />
     <Compile Include="Spaces1.cs" />
