@@ -52,6 +52,7 @@
     <Compile Include="EvenOddIf.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="Factors.cs" />
+    <Compile Include="Fibonoci.cs" />
     <Compile Include="FirstNEven.cs" />
     <Compile Include="IFproblem.cs" />
     <Compile Include="LargestEltInArray.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="NamesInArray.cs" />
     <Compile Include="NoOfDigits.cs" />
     <Compile Include="OvalElseIf.cs" />
+    <Compile Include="PalindromeNested.cs" />
     <Compile Include="Pattern3.cs" />
     <Compile Include="Pattern4.cs" />
     <Compile Include="Pattern5.cs" />
