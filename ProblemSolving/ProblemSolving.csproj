@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ProblemSolving.Ascendingarray</StartupObject>
+    <StartupObject>ProblemSolving.NestedPrime</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,6 +58,7 @@
     <Compile Include="LargestEltInArray.cs" />
     <Compile Include="MultiplicationTable.cs" />
     <Compile Include="NamesInArray.cs" />
+    <Compile Include="NestedPrime.cs" />
     <Compile Include="NoOfDigits.cs" />
     <Compile Include="OvalElseIf.cs" />
     <Compile Include="PalindromeNested.cs" />
